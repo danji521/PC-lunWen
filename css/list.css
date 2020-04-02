@@ -130,7 +130,7 @@ main .content {
 
 main .content .content-left {
 	width: 78%;
-	padding-right: 3%;
+	padding-right: 4%;
 }
 
 main .content .content-right {
@@ -269,7 +269,7 @@ main .content-right .title {
 }
 
 main .content-right .box {
-	width: 18.5rem;
+	width: 17.5rem;
 	margin: 0 auto;
 	padding: 0.2rem 0.2rem 0.6rem 0.2rem;
 	border-radius: 0.5rem;

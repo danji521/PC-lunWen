@@ -19,7 +19,7 @@ header .top-nav {
 	margin: 0 auto;
 	overflow: hidden;
 	color: #ffffff;
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 }
 
 header .top-nav a {
@@ -27,17 +27,17 @@ header .top-nav a {
 }
 
 header .top-nav img {
-	width: 11rem;
+	width: 13.5rem;
 	height: 4rem;
 }
 
 header .top-nav div {
 	text-align: center;
-	width: 9rem;
+	width: 10rem;
 }
 
 header .top-nav :nth-child(2) a {
-	font-size: 1.9rem;
+	font-size: 1.8rem;
 	font-weight: 600;
 }
 
@@ -181,7 +181,7 @@ main .service .list-item .title {
 
 main .service .list-item .text {
 	margin-top: 0.5rem;
-	font-size: 1.1rem;
+	font-size: 1.15rem;
 	color: #737373;
 	font-family: '黑体';
 }

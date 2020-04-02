@@ -1,0 +1,392 @@
+@charset "UTF-8";
+
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+
+header {
+	padding-top: 2.8rem;
+	height: 50.3rem;
+	background: url("../img/home_01.jpg") no-repeat center center/100% 100%;
+}
+
+header .top-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+	color: #ffffff;
+	font-size: 1.5rem;
+}
+
+header .top-nav a {
+	color: #ffffff;
+}
+
+header .top-nav img {
+	width: 11rem;
+	height: 4rem;
+}
+
+header .top-nav div {
+	text-align: center;
+	width: 9rem;
+}
+
+header .top-nav :nth-child(2) a {
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+
+header .top-nav div:hover a {
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+
+header .swiper {
+	display: flex;
+	align-items: center;
+	max-width: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+	height: 88%;
+}
+
+header #carouselExampleIndicators,
+header .carousel-inner {
+	width: 100%;
+	height: 100%;
+}
+
+header .swiper .carousel-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 6%;
+	height: 100%;
+}
+
+header .swiper .carousel-item img {
+	width: 41.8rem;
+	height: 36.35rem;
+}
+
+header .carousel-item {
+	color: #ffffff;
+}
+
+header .carousel-item .p1 {
+	width: 10rem;
+	height: 2.8rem;
+	background-image: url(../img/home_11.png);
+	background-size: 100% 100%;
+}
+
+header .carousel-item .p2 {
+	width: 16rem;
+	overflow: hidden;
+	font-size: 3rem;
+	line-height: 3.6rem;
+	font-weight: 600;
+	letter-spacing: 1rem;
+}
+
+header .carousel-item .p3 {
+	width: 30rem;
+	overflow: hidden;
+	font-size: 2rem;
+	line-height: 3.6rem;
+	letter-spacing: 0.9rem;
+}
+
+header .carousel-item .p4 {
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+}
+
+header .carousel-item .but {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4.7rem;
+	width: 12rem;
+	height: 3rem;
+	font-size: 1.3rem;
+	line-height: 1.8rem;
+	letter-spacing: 0.5rem;
+	border-radius: 2rem;
+	border: 1px solid #afdefa;
+	background-color: #82c7f7;
+}
+
+header .carousel-indicators .active {
+	background-color: #fed307;
+}
+
+main {
+	max-width: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+main h3 {
+	font-size: 2.5rem;
+	color: #000000;
+	text-align: center;
+	letter-spacing: 0.07rem;
+	font-weight: 600;
+}
+
+main .notes {
+	margin-top: 0.9rem;
+	color: #838383;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+main .service {
+	padding-top: 4.7rem;
+}
+
+main .service img {
+	width: 11.5rem;
+}
+
+main .service .list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 3.4rem;
+}
+
+main .service .list-item {
+	padding-top: 2rem;
+	width: 22%;
+	height: 25rem;
+	text-align: center;
+	box-shadow: 3px 10px 11px rgba(226, 226, 226, 0.9);
+}
+
+main .service .list-item .title {
+	margin: 0;
+	margin-top: 2rem;
+	font-size: 2rem;
+	color: #333333;
+	font-weight: 600;
+	font-family: '黑体';
+}
+
+main .service .list-item .text {
+	margin-top: 0.5rem;
+	font-size: 6.2px;
+	color: #737373;
+	font-family: '黑体';
+}
+
+main .product {
+	padding-top: 4.5rem;
+}
+
+main .product .list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 3rem;
+}
+
+main .product .list-item {
+	width: 22%;
+	text-align: center;
+	box-shadow: 0px 10px 10px rgba(226, 226, 226, 0.9);
+}
+
+main .product .list-item img {
+	width: 100%;
+	height: 7.2rem;
+}
+
+main .product .list-item h5 {
+	margin-top: 0.9rem;
+	color: #333333;
+	font-size: 1.7rem;
+	font-weight: 900;
+}
+
+main .product .list-item .p1 {
+	margin-top: 1.1rem;
+	padding: 0 11.5%;
+	text-align: left;
+	font-size: 1.1rem;
+	color: #9a9a9a;
+}
+
+main .product .list-item .p2 {
+	margin-top: 1.1rem;
+	padding: 0 11.5%;
+	text-align: left;
+	font-size: 1.5rem;
+	color: #0097e7;
+}
+
+main .product .list-item .but {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1.1rem auto 1.5rem auto;
+	/* width: 18rem; */
+	width: 77%;
+	height: 2.5rem;
+	color: #ffffff;
+	font-size: 1.4rem;
+	font-family: '黑体';
+	background-color: #0099e5;
+}
+
+main .column {
+	padding: 5.5rem 3rem 0 3rem;
+}
+
+main .column .list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 4.5rem;
+}
+
+main .column .list-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 8.8rem;
+	height: 8.8rem;
+	border-radius: 50%;
+	font-size: 1.6rem;
+	font-family: '黑体';
+	color: #ffffff;
+	background-image: url(../img/home_05.png);
+	background-size: 100% 100%;
+}
+
+main .customer {
+	position: fixed !important;
+	height: 280px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+	z-index: 1;
+	color: #ffffff;
+	font-size: 1.5rem;
+}
+
+main .customer div {
+	background-color: #0099e5;
+	border-radius: 1rem;
+}
+
+main .customer img {
+	width: 3rem;
+	height: 4rem;
+}
+
+main .customer a {
+	color: #ffffff;
+}
+
+main .customer .list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 5px 0;
+}
+
+main .customer .list .list-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	width: 6rem;
+	height: 6rem;
+	border-radius: 1rem;
+}
+
+main .customer .list-bott .list-up {
+	display: flex;
+	align-items: center;
+	text-align: left;
+}
+
+main .list-up .list-up-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	width: 6rem;
+	height: 6rem;
+	border-radius: 1rem;
+}
+
+main .list-bott {
+	text-align: center;
+}
+
+main .list-bott .list-footer {
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	margin: 0 20%;
+}
+
+main .list-bott .list-footer img {
+	width: 11rem;
+	height: 11rem;
+	background-color: #82c7f7;
+}
+
+main .hide {
+	transition: width 0.5s;
+	width: 0;
+	height: 0;
+	overflow-x: hidden;
+}
+
+main .customer:hover .hide {
+	width: 10rem;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+main .customer:hover .list-bott {
+	padding-bottom: 2rem;
+}
+
+main .customer:hover .list-footer {
+	width: 11rem;
+	height: 11rem;
+}
+
+footer {
+	margin-top: 5rem;
+	padding-top: 7rem;
+	width: 100%;
+	height: 23rem;
+	text-align: center;
+	color: #ffffff;
+	font-size: 0.83rem;
+	font-family: '黑体';
+	background-image: url("../img/home_07.png");
+	background-size: 100% 100%;
+}
+
+footer img {
+	margin-bottom: 2rem;
+	width: 8.5rem;
+	height: 3rem;
+}
+
+footer p {
+	margin-bottom: 1rem;
+}

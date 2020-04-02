@@ -19,7 +19,7 @@ header .top-nav {
 	margin: 0 auto;
 	overflow: hidden;
 	color: #ffffff;
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 }
 
 header .top-nav a {
@@ -37,7 +37,7 @@ header .top-nav div {
 }
 
 header .top-nav :nth-child(2) a {
-	font-size: 1.8rem;
+	font-size: 1.9rem;
 	font-weight: 600;
 }
 
@@ -181,7 +181,7 @@ main .service .list-item .title {
 
 main .service .list-item .text {
 	margin-top: 0.5rem;
-	font-size: 6.2px;
+	font-size: 1.1rem;
 	color: #737373;
 	font-family: '黑体';
 }
